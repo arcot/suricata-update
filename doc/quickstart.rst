@@ -105,7 +105,7 @@ This command will:
 * Look for the ``suricata`` program on your path to determine its
   version.
 
-* Look for /etc/suricata/enable.conf, /etc/suricata/disable.conf,
+* Look for /etc/suricata/disable.conf, /etc/suricata/enable.conf,
   /etc/suricata/drop.conf, and /etc/suricata/modify.conf to look for
   filters to apply to the downloaded rules. These files are optional
   and do not need to exist.
@@ -113,7 +113,7 @@ This command will:
 * Download the Emerging Threats Open ruleset for your version of
   Suricata, defaulting to 4.0.0 if not found.
 
-* Apply enable, disable, drop and modify filters as loaded above.
+* Apply disable, enable, drop and modify filters as loaded above.
 
 * Write out the rules to ``/var/lib/suricata/rules/suricata.rules``.
 
